@@ -4,7 +4,7 @@
 [![Project Screen Shot][project-screenshot]]()
 [![Project Screen Shot][project-screenshot2]]()
 
-This repository contains a series of code for the Musicbot
+This repository contains a series of code for the Musicbot.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,6 +71,8 @@ To launch the program, go to the python directory and type:
    python3 piano_keyboard.py
    ```
    
+Plays piano using keyboard: A, Q, S, E, D, R, F, G, Y, H, U, J, I, K, L
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 

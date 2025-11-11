@@ -21,30 +21,27 @@ This repository contains a series of code for the Musicbot
 To set up the project locally, you need to install (if not already the case) some dependencies. To get a local copy up and running follow these steps.
 
 ### Prerequisites
-
-* C++ Compiler
-
-Install the build-essential package
-  ```sh
-  sudo apt install build-essential 
-  ```
-
-Create 2 repositories in the folder Musicbot
-  ```sh
-  mkdir lib
-  mkdir bin
-  ```
-
- Compile and install
-  ```sh
- make
- ```
  
  * Python
 
 Install Python
   ```sh
   sudo apt install python3
+  ```
+  
+Install pip
+  ```sh
+  sudo apt install python3-pip
+  ```
+  
+Install pygame
+  ```sh
+  pip install pygame
+  ```
+  
+Install serial
+   ```sh
+  pip install pyserial
   ```
 
 ### Installation
@@ -54,10 +51,6 @@ Install Python
    git clone https://github.com/lock94656/Musicbot.git
    ```
 2. Open a terminal
-3. Compile/Link by calling the makefile (C++)
- ```sh
-   make
-   ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
